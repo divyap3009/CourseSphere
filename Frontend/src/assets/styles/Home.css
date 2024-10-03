@@ -1,0 +1,57 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .hero-section {
+    background-color: #101010;
+    padding: 80px;
+    text-align: center;
+    margin: 0px -8px;
+  }
+  
+  .hero-section h1 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f39440;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .course-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .course-section h2 {
+    margin-bottom: 24px;
+    font-size: 2rem;
+    color: #6659b8;
+  }
+  
+  .course-listt {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .course-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

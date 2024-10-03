@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .navbar {
+    background-color: #181717;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%; 
+} */
+
+.footer {
+    background-color: #574b4b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%; /* Ensure footer is full width */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links button:hover {
+    background-color: #e0e0e0;
+    color: #6659b8;
+}

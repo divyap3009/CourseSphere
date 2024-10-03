@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-bottom: auto;
+  background-color: #f7f7f7;
+  margin-top: -15px;
+}
+
+.h1-tag {
+  color: #6659b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

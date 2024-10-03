@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .navbar h1 {
+    font-size: 1.5rem;
+  }
+
+  .navbar .nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+}
